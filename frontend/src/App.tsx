@@ -1,4 +1,5 @@
 import "./App.css";
+import UsersTable from "./components/users-table";
 
 function App() {
   return (
@@ -9,8 +10,8 @@ function App() {
       <div className="bg-white p-3 shadow">
         <h2 className="font-bold">Spring Boot and React MUI - Table Example</h2>
       </div>
-      <div className="w-full bg-slate-100 p-3 h-100">
-        Examples
+      <div className="w-full bg-slate-100 p-3">
+        <UsersTable />
       </div>
     </div>
   );
